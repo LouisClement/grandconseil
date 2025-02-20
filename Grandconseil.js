@@ -15,7 +15,7 @@ function init() {
 
     // Charger la texture
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('grandconseil.png', (texture) => {
+    textureLoader.load('./grandconseil.png', (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
         texture.wrapS = THREE.RepeatWrapping;
         texture.repeat.x = -1; // Inverser l'image pour un rendu correct

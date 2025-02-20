@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grand conseil</title>
+
     <script type="importmap">
         {
             "imports": {
-                "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js"
+                "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js",
+                "three/examples/jsm/controls/OrbitControls.js": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/jsm/controls/OrbitControls.js"
             }
         }
     </script>
-<script defer src="https://louisclement.github.io/grandconseil/Grandconseil.js"></script>
+
+    <script type="module" defer src="./Grandconseil.js"></script>
+
     <style>
         body { margin: 0; overflow: hidden; }
         canvas { display: block; }
